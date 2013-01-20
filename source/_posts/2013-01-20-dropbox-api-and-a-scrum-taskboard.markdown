@@ -9,8 +9,8 @@ categories: [Dropbox, offline-apps]
 ## Offline Apps and Sharing Data
 
 What about having an offline application that saves your data using
-offline storage, but synchs to a server that allows the same 'offline
-storage' to be editted by two more users.
+offline storage, but syncs to a server that allows the same 'offline
+storage' to be edited by two more users.
 
 The idea is simple.
 
@@ -34,7 +34,7 @@ to be saved in plain text in the application page.
 
 ### Dropbox Apps to the rescue
 
-I think the folks are Dropbox are really up to something. 
+I think the folks at Dropbox are really up to something. 
 
 While looking around what the current state of the art is on such an
 approach to building offline applications, I found that Dropbox team
@@ -47,7 +47,7 @@ everything seems so simple and straight forward.
 #### No offline storage
 
 You even start to wonder if you need to use the offline storage at
-all. Just update the dropbox files and let the dropbox daemon synch
+all. Just update the dropbox files and let the dropbox daemon sync
 them up with your team.
 
 #### Locks
@@ -55,10 +55,10 @@ them up with your team.
 I do think it'll be cool to use a lock file so that multiple user's
 can't edit the app at the same time. If we really need that then we
 need to start thinking merging and probably using Git JS libs to do
-the synching. All to complicated for people who are simply interested
-in say a SCRUM taskboard.
+the syncing. All to complicated for people who are simply interested
+in say a SCRUM Taskboard.
 
-Having a start editting -> edit -> save semantics will enable us to
+Having a start editing -> edit -> save semantics will enable us to
 check for lock file, and if two people do manage to get locks then the
 one with the earlier version wins. Dropbox core api lets us get the
 versions and timestamps for files.
