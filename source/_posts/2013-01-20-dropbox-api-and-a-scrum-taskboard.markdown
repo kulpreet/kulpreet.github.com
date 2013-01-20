@@ -21,7 +21,7 @@ Dropbox? Anything you fancy. That is where you get the 'app' from.
 edit data.
 
 1. The app saves your data in local offline storage - which seems to
-have a (limit of 5MB)[http://diveintohtml5.info/storage.html]. So of
+have a [limit of 5MB](http://diveintohtml5.info/storage.html). So of
 course such offline apps will only work for apps that keep data
 consumption to less than 5MB.
 
@@ -39,7 +39,7 @@ I think the folks at Dropbox are really up to something.
 While looking around what the current state of the art is on such an
 approach to building offline applications, I found that Dropbox team
 has been busily building away something that just works marvelously
-well. They call them apps (Dropbox Apps)[https://www.dropbox.com/developers/start].
+well. They call them apps [Dropbox Apps](https://www.dropbox.com/developers/start).
 
 Using the Dropbox Core API from their Javascript client library
 everything seems so simple and straight forward.
@@ -67,12 +67,11 @@ versions and timestamps for files.
 
 A few people have tried and it seems quite an active area. 
 
-(Unhosted)[https://unhosted.org/] have been working on providing just
+[Unhosted](https://unhosted.org/) have been working on providing just
 these kinds of 'offline' applications.
 
-(RemoteStorage)[http://remotestorage.io/] lets anyone run a remote
-storage server which they provide (client
-apis)[http://remotestoragejs.com/doc/code/files/remoteStorage-js.html]
+[RemoteStorage](http://remotestorage.io/) lets anyone run a remote
+storage server which they provide [client apis](http://remotestoragejs.com/doc/code/files/remoteStorage-js.html)
 to talk to from JS applications.
 
 Definitely working keeping an eye on them.
