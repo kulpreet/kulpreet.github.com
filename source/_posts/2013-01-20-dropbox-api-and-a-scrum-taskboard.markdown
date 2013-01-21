@@ -74,4 +74,4 @@ these kinds of 'offline' applications.
 storage server which they provide [client apis](http://remotestoragejs.com/doc/code/files/remoteStorage-js.html)
 to talk to from JS applications.
 
-Definitely working keeping an eye on them.
+Definitely worth keeping an eye on them.
