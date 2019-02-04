@@ -23,4 +23,4 @@ Network](https://lnmetrics.opdup.com/).
 I studied [consensus
 algorithms](https://scholar.google.it/citations?user=Ty7PQNwAAAAJ&hl=en)
 for my PhD. My post academic life has been spent working with startups
-building products for Web 2.0 and Mobile.
+[building products](https://www.linkedin.com/in/zapfmann/) for Web 2.0 and Mobile.
