@@ -16,11 +16,12 @@
 title: Kulpreet Singh
 email: kp@opdup.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Research; Develop; Productize;
+  Research. Develop. Productize.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://opdup.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jungly
 github_username:  kulpreet
+linkedin_username: zapfmann
 
 # Build settings
 markdown: kramdown
