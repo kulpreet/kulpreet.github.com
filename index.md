@@ -15,12 +15,21 @@ Blog: [blog.opdup.com](https://blog.opdup.com)
 The shape of Bitcoin's adoption curve is, as of yet, unknown. What we
 do know is that there is a lot we still need to build.
 
-## Current work
+## Current works
 
-Most recently I have been working on
-[Braidpool](https://github.com/pool2win/braidpool). I am using TLA+ to
-specify the protocols that make up braidpool and I post the latest
-developments on my [blog](https://blog.opdup.com).
+I have long wanted to use TLA+ for specifying behaviours of layer 2
+bitcoin contracts. I have started work on specifying lightning
+contracts using justice transactions. As a consequence of this work,
+we finally have a TLA+ module to capture the behaviour of the bitcoin
+network that can be used as the environment for specifying any L2
+contract. The work's [progress is tracked on the
+README](https://github.com/pool2win/bitcoin-contracts-tlaplus/#progress)
+of the repo for now.
+
+I have also been working on
+[Braidpool](https://github.com/pool2win/braidpool) and using TLA+ to
+specify the protocols that make up braidpool. The latest braidpool
+developments are on my [blog](https://blog.opdup.com).
 
 ## Past work
 
